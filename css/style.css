@@ -1,36 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
 	height: 50px;
-    background-color: black;
+    background-color: white;
+    border: 1px solid rgb(230, 236, 240);
+    color: black;
     width: 100%;
     text-align: center;
 }
 
 .item {
-	height: 50px;
+	    height: 50px;
     width: 100px;
     text-align: center;
-    padding-top: 13px;
+    /* padding-top: 13px; */
     display: inline-block;
-}
-
-a {
-   display: inline;
-   color: white;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
+    color: black;
 }
 
 main {
-       max-width: 800px;
-       margin-left: auto;
-       margin-right: auto;
-       Background-color: #f0f8ff;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 
 body {
     display: block;
-    margin: 8px;
-    Background-color: #f0f8ff;
-	font-family: arial;
+    Background-color: white;
+	font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+	overflow-x: hidden;
+}
+
+.projectheader{
+	margin-top: 20px;
+}
+
+.project {
+    height: auto;
+	margin-top: 20px;
+	display: flow-root;
+}
+
+.projectdetail {
+	font-size: larger;
+}
+
+.projectname {
+	float: left;
+    width: 80%;
+    height: inherit;
+}
+
+.projectperiod {
+	float: right;
+    width: 20%;
+    text-align: right;
+}
+
+.projectdescription{
+	width: 95%;
+    float: right;
+}
+
+.role {
+	width: 100%;
+    height: auto;
+    margin-top: 40px;
+    font-size: larger;
+	display: inline-block;
+}
+
+.rolename {
+	float: left;
+    width: 50%;
+    height: inherit;
+}
+
+.roleperiod {
+	float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.companyinfo {
+}
+
+.workpoints {
+}
+
+.work{
+	    width: 95%;
+    float: right;
+}
+
+.table {
+	border-spacing: 5px;
+}
+
+td {
+	padding: 10px;
+}
+
+.category {
+	width: 25%;
+}
+
+.link {
+	color: black;
+	font-weight: bold;
+}
+
+.anchor {
+	margin-top: 12px;
+}
+
+a {
+	font-size: medium;
+	color: blue;
+	text-decoration: none;
+}
+
+p {
+	margin: 10px;
 }
